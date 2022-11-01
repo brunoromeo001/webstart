@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'LongCang';
+  src: url('LongCang-Regular.ttf') format('truetype');
+}
+
+body{
+  margin: 0;
+}
+
+header {
+  background-color: #ccc;
+  height: 100px;
+}
+
+section{
+  background-color: #999;
+  height: calc(100vh - 200px);
+  display: flex;
+}
+
+footer{
+
+  background-color: #669;
+  height: 100px;
+}
+
+main{
+
+  background-color: red;
+  height: calc(100vh - 200px);
+  flex: 1;
+}
+
+aside{
+  width: 200px;
+}
+
+#menu{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: stretch;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  background: url('img.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#menu li{
+  height: 100px;
+  background-color: aqua;
+  margin: 10px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu li a{
+
+  text-decoration: none;
+  font-size: 26px;
+  color: red;
+  font-family: 'LongCang';
+  font-weight: bold;
+
+}
+
+#item2{
+  padding: 5px;
+  border: blue 1px solid;
+  outline: green 9px solid;
+}
+
+@media (min-width: 576px) { 
+  
+  #menu{
+    background: black;
+  }
+}
+
+
+@media (min-width: 768px) { 
+  
+}
+
+
+@media (min-width: 992px) { 
+  
+}
+
+
+@media (min-width: 1200px) { 
+  
+}
+
+
+@media (min-width: 1400px) { 
+  
+}
